@@ -1,0 +1,264 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Basic dGVzdF91c2VyOkR1bW15UGFzc0AyMDI2
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.34.2
+    method: GET
+    uri: https://10.10.10:8443/remote/core.executeQuery?%3Aoutput=json&target=EPOAssignedPolicy&order=%28order+%28asc+EPOAssignedPolicy.PolicyObjectID%29%29&select=%28select+%28top+5%29+EPOAssignedPolicy.NodeName+EPOAssignedPolicy.UserName+EPOAssignedPolicy.PolicyObjectID+EPOAssignedPolicy.PolicyDesc+EPOAssignedPolicy.FeatureTextID+EPOAssignedPolicy.upToDate+EPOAssignedPolicy.ServerID+EPOAssignedPolicy.EditFlags+EPOAssignedPolicy.Origin%29
+  response:
+    body:
+      string: "OK:\r\n[ { \"EPOAssignedPolicy.NodeName\" : \"SACUMEN\", \"EPOAssignedPolicy.UserName\"
+        : \" \", \"EPOAssignedPolicy.PolicyObjectID\" : 15, \"EPOAssignedPolicy.PolicyDesc\"
+        : \"\", \"EPOAssignedPolicy.FeatureTextID\" : \"EPOAGENTMETA\", \"EPOAssignedPolicy.upToDate\"
+        : true, \"EPOAssignedPolicy.ServerID\" : \"EPO-SERVER\", \"EPOAssignedPolicy.EditFlags\"
+        : 0, \"EPOAssignedPolicy.Origin\" : \"tree\" }, { \"EPOAssignedPolicy.NodeName\"
+        : \"SACUMEN\", \"EPOAssignedPolicy.UserName\" : \" \", \"EPOAssignedPolicy.PolicyObjectID\"
+        : 16, \"EPOAssignedPolicy.PolicyDesc\" : \"\", \"EPOAssignedPolicy.FeatureTextID\"
+        : \"EPOAGENTMETA\", \"EPOAssignedPolicy.upToDate\" : true, \"EPOAssignedPolicy.ServerID\"
+        : \"EPO-SERVER\", \"EPOAssignedPolicy.EditFlags\" : 0, \"EPOAssignedPolicy.Origin\"
+        : \"tree\" }, { \"EPOAssignedPolicy.NodeName\" : \"SACUMEN\", \"EPOAssignedPolicy.UserName\"
+        : \" \", \"EPOAssignedPolicy.PolicyObjectID\" : 17, \"EPOAssignedPolicy.PolicyDesc\"
+        : \"\", \"EPOAssignedPolicy.FeatureTextID\" : \"EPOAGENTMETA\", \"EPOAssignedPolicy.upToDate\"
+        : true, \"EPOAssignedPolicy.ServerID\" : \"EPO-SERVER\", \"EPOAssignedPolicy.EditFlags\"
+        : 0, \"EPOAssignedPolicy.Origin\" : \"tree\" }, { \"EPOAssignedPolicy.NodeName\"
+        : \"SACUMEN\", \"EPOAssignedPolicy.UserName\" : \" \", \"EPOAssignedPolicy.PolicyObjectID\"
+        : 18, \"EPOAssignedPolicy.PolicyDesc\" : \"\", \"EPOAssignedPolicy.FeatureTextID\"
+        : \"EPOAGENTMETA\", \"EPOAssignedPolicy.upToDate\" : true, \"EPOAssignedPolicy.ServerID\"
+        : \"EPO-SERVER\", \"EPOAssignedPolicy.EditFlags\" : 0, \"EPOAssignedPolicy.Origin\"
+        : \"tree\" }, { \"EPOAssignedPolicy.NodeName\" : \"SACUMEN\", \"EPOAssignedPolicy.UserName\"
+        : \" \", \"EPOAssignedPolicy.PolicyObjectID\" : 19, \"EPOAssignedPolicy.PolicyDesc\"
+        : \"\", \"EPOAssignedPolicy.FeatureTextID\" : \"EPOAGENTMETA\", \"EPOAssignedPolicy.upToDate\"
+        : true, \"EPOAssignedPolicy.ServerID\" : \"EPO-SERVER\", \"EPOAssignedPolicy.EditFlags\"
+        : 0, \"EPOAssignedPolicy.Origin\" : \"tree\" } ]\r\n"
+    headers:
+      Cache-Control:
+      - no-cache,no-store
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1839'
+      Content-Security-Policy:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+      Content-Type:
+      - text/plain;charset=UTF-8
+      Date:
+      - Mon, 12 Oct 2026 17:22:14 GMT
+      Expires:
+      - Mon, 12 Oct 2026 17:22:14 GMT
+      Keep-Alive:
+      - timeout=60
+      Pragma:
+      - no-cache
+      Server:
+      - Undefined
+      Set-Cookie:
+      - JSESSIONIDSSO=2878B53C7F64C671EBF2D4DD04301461; Path=/; Secure; HttpOnly;
+        SameSite=None
+      - JSESSIONID=210571B48D6C613DA0426BF90BFFA92D.route1; Path=/remote; Secure;
+        HttpOnly; SameSite=None
+      X-Content-Security-Policy:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+      X-Content-Type-Options:
+      - nosniff
+      X-WebKit-CSP:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+    status:
+      code: 200
+      message: ''
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Basic dGVzdF91c2VyOkR1bW15UGFzc0AyMDI2
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.34.2
+    method: GET
+    uri: https://10.10.10:8443/remote/core.executeQuery?%3Aoutput=json&target=EPOAssignedPolicy&order=%28order+%28asc+EPOAssignedPolicy.PolicyObjectID%29%29&select=%28select+%28top+5%29+EPOAssignedPolicy.NodeName+EPOAssignedPolicy.UserName+EPOAssignedPolicy.PolicyObjectID+EPOAssignedPolicy.PolicyDesc+EPOAssignedPolicy.FeatureTextID+EPOAssignedPolicy.upToDate+EPOAssignedPolicy.ServerID+EPOAssignedPolicy.EditFlags+EPOAssignedPolicy.Origin%29&where=%28gt+EPOAssignedPolicy.PolicyObjectID+19%29
+  response:
+    body:
+      string: "OK:\r\n[ { \"EPOAssignedPolicy.NodeName\" : \"SACUMEN\", \"EPOAssignedPolicy.UserName\"
+        : \" \", \"EPOAssignedPolicy.PolicyObjectID\" : 25, \"EPOAssignedPolicy.PolicyDesc\"
+        : \"\", \"EPOAssignedPolicy.FeatureTextID\" : \"UDLPSRVR2013\", \"EPOAssignedPolicy.upToDate\"
+        : true, \"EPOAssignedPolicy.ServerID\" : \"EPO-SERVER\", \"EPOAssignedPolicy.EditFlags\"
+        : 1, \"EPOAssignedPolicy.Origin\" : \"tree\" }, { \"EPOAssignedPolicy.NodeName\"
+        : \"SACUMEN\", \"EPOAssignedPolicy.UserName\" : \" \", \"EPOAssignedPolicy.PolicyObjectID\"
+        : 28, \"EPOAssignedPolicy.PolicyDesc\" : \"\", \"EPOAssignedPolicy.FeatureTextID\"
+        : \"UDLPSRVR2013\", \"EPOAssignedPolicy.upToDate\" : true, \"EPOAssignedPolicy.ServerID\"
+        : \"EPO-SERVER\", \"EPOAssignedPolicy.EditFlags\" : 0, \"EPOAssignedPolicy.Origin\"
+        : \"tree\" }, { \"EPOAssignedPolicy.NodeName\" : \"SACUMEN\", \"EPOAssignedPolicy.UserName\"
+        : \" \", \"EPOAssignedPolicy.PolicyObjectID\" : 29, \"EPOAssignedPolicy.PolicyDesc\"
+        : \"\", \"EPOAssignedPolicy.FeatureTextID\" : \"UDLPSRVR2013\", \"EPOAssignedPolicy.upToDate\"
+        : true, \"EPOAssignedPolicy.ServerID\" : \"EPO-SERVER\", \"EPOAssignedPolicy.EditFlags\"
+        : 0, \"EPOAssignedPolicy.Origin\" : \"tree\" }, { \"EPOAssignedPolicy.NodeName\"
+        : \"SACUMEN\", \"EPOAssignedPolicy.UserName\" : \" \", \"EPOAssignedPolicy.PolicyObjectID\"
+        : 30, \"EPOAssignedPolicy.PolicyDesc\" : \"\", \"EPOAssignedPolicy.FeatureTextID\"
+        : \"UDLPSRVR2013\", \"EPOAssignedPolicy.upToDate\" : true, \"EPOAssignedPolicy.ServerID\"
+        : \"EPO-SERVER\", \"EPOAssignedPolicy.EditFlags\" : 0, \"EPOAssignedPolicy.Origin\"
+        : \"tree\" } ]\r\n"
+    headers:
+      Cache-Control:
+      - no-cache,no-store
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1473'
+      Content-Security-Policy:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+      Content-Type:
+      - text/plain;charset=UTF-8
+      Date:
+      - Mon, 12 Oct 2026 17:22:16 GMT
+      Expires:
+      - Mon, 12 Oct 2026 17:22:16 GMT
+      Keep-Alive:
+      - timeout=60
+      Pragma:
+      - no-cache
+      Server:
+      - Undefined
+      Set-Cookie:
+      - JSESSIONIDSSO=3E66C64DB9B52FFE27989AE27A84CB8B; Path=/; Secure; HttpOnly;
+        SameSite=None
+      - JSESSIONID=3C8C53C749951203A340EABA65DD292E.route1; Path=/remote; Secure;
+        HttpOnly; SameSite=None
+      X-Content-Security-Policy:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+      X-Content-Type-Options:
+      - nosniff
+      X-WebKit-CSP:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+    status:
+      code: 200
+      message: ''
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Basic dGVzdF91c2VyOkR1bW15UGFzc0AyMDI2
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.34.2
+    method: GET
+    uri: https://10.10.10:8443/remote/core.executeQuery?%3Aoutput=json&target=EPOAssignedPolicy&order=%28order+%28asc+EPOAssignedPolicy.PolicyObjectID%29%29&select=%28select+%28top+5%29+EPOAssignedPolicy.NodeName+EPOAssignedPolicy.UserName+EPOAssignedPolicy.PolicyObjectID+EPOAssignedPolicy.PolicyDesc+EPOAssignedPolicy.FeatureTextID+EPOAssignedPolicy.upToDate+EPOAssignedPolicy.ServerID+EPOAssignedPolicy.EditFlags+EPOAssignedPolicy.Origin%29&where=%28gt+EPOAssignedPolicy.PolicyObjectID+30%29
+  response:
+    body:
+      string: "OK:\r\n[ ]\r\n"
+    headers:
+      Cache-Control:
+      - no-cache,no-store
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '10'
+      Content-Security-Policy:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+      Content-Type:
+      - text/plain;charset=UTF-8
+      Date:
+      - Mon, 12 Oct 2026 17:22:17 GMT
+      Expires:
+      - Mon, 12 Oct 2026 17:22:17 GMT
+      Keep-Alive:
+      - timeout=60
+      Pragma:
+      - no-cache
+      Server:
+      - Undefined
+      Set-Cookie:
+      - JSESSIONIDSSO=95A40901CEF08A8C883046A67C161487; Path=/; Secure; HttpOnly;
+        SameSite=None
+      - JSESSIONID=97147F488C22EF4A02D919F340D3C125.route1; Path=/remote; Secure;
+        HttpOnly; SameSite=None
+      X-Content-Security-Policy:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+      X-Content-Type-Options:
+      - nosniff
+      X-WebKit-CSP:
+      - 'base-uri ''self'' *.trellix.com *.trellix-gov.com; default-src ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;
+        script-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self'' *.trellix.com *.trellix-gov.com  ''unsafe-inline'' ''unsafe-eval'';
+        style-src ''self'' *.trellix.com *.trellix-gov.com   ''unsafe-inline'' ''unsafe-eval''
+        ; font-src ''self'' *.trellix.com *.trellix-gov.com; img-src ''self'' *.trellix.com
+        *.trellix-gov.com  *.mapbox.com data: ; frame-ancestors ''self'' *.trellix.com
+        *.trellix-gov.com app.box.com *.app.box.com account.box.com *.account.box.com;'
+    status:
+      code: 200
+      message: ''
+version: 1

@@ -1,0 +1,12 @@
+OK: [
+    {
+        "UDLP_RuleSets.RuleSetID": "61xxxD-3xx4-4xxD-BxxD-xxxxBA",
+        "UDLP_RuleSets.CatalogID": "Dxxx4-FxAxB-xxD2-8xxD-71xxxx801",
+        "UDLP_RuleSets.Name": "[Sample] How to Block CD/DVD Burner Application from burning Confidential data",
+        "UDLP_RuleSets.Description": "Blocks all defined CD/DVD burner applications from burning Confidential data",
+        "UDLP_RuleSets.Enabled": 1,
+        "UDLP_RuleSets.Owner": 1,
+        "UDLP_RuleSets.LastModifier": 1,
+        "UDLP_RuleSets.ModificationTime": "2026-09-22T23:58:00-07:00"
+    }
+]
