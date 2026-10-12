@@ -12,7 +12,7 @@ from .exceptions import RetryableError
 from .models import TrellixAuthenticationModels
 
 
-class TrellixDLPAuth:  # pylint: disable=too-few-public-methods
+class TrellixDLPAuth: 
     """
     Trellix DLP (ePO On-Prem) Authentication Helper.
 
